@@ -23,6 +23,7 @@ a {
   color: #8f2440;
   text-decoration: none;
   font-weight: 900;
+  list-style-type: none;
 }
 
 main p {
@@ -47,6 +48,15 @@ main li {
   font-family: "PT Serif", serif;
   font-weight: 100;
   font-size: .8rem;
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+aside li {
+  list-style-type: circle;
 }
 
 blockquote p {
