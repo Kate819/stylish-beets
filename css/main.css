@@ -13,35 +13,54 @@ h1 {
 h2 {
   font-family: "PT Sans", serif;
   color: #3f1622;
-  font-size: 1.125rem;
-  font-weight: bold;
-  hover: #3f1622
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-nav > ol {
+a {
   font-family: "PT Sans", serif;
-  font-size: 0.8rem;
+  font-size: 1.125rem;
   color: #8f2440;
-  font-weight: bold;
   text-decoration: none;
+  font-weight: 900;
 }
 
-figcaption {
+main p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+main figcaption {
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 0.8rem;
-  font-weight: 400;
+  font-size: 1.125rem;
+  font-weight: 100;
 }
 
-h2 > ul {
-  font-size: 0.8rem;
+img {
+  height: 100%;
+  width: 100%;
 }
 
-h2:hover {
-  color: #3f1622;
+main li {
+  font-family: "PT Serif", serif;
+  font-weight: 100;
+  font-size: .8rem;
 }
 
-figure:first-child {
-  font-size: 2.5rem;
+blockquote p {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.days {
+  font-size: 1.125rem;
   font-weight: bold;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
